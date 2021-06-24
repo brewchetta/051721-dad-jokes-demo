@@ -9,11 +9,15 @@ let currentJoke = {}
 const likedJokes = []
 
 function saveJoke() {
-  likedJokes.push(currentJoke)
-  const li = document.createElement('li')
-  li.innerText = currentJoke.joke
-  likedJokesContainer.append(li)
-  li.addEventListener('click', event => removeJoke(event))
+  if (!likedJokes.includes(currentJoke)) {
+    likedJokes.push(currentJoke)
+    const li = document.createElement('li')
+    li.innerText = currentJoke.joke
+    likedJokesContainer.append(li)
+    li.addEventListener('click', event => removeJoke(event))
+  } else {
+    alert('You already have that joke!')
+  }
 }
 
 function removeJoke(event) {
