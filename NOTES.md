@@ -7,7 +7,8 @@ A dad joke website that allows users to fetch random dad jokes and save their fa
 <!-- - A user can click a button to load a new dad joke -->
 
 ## Stretch
-- Users can temporarily save dad jokes in an array
+<!-- - Users can temporarily save dad jokes in an array - like button -->
+- Can remove liked jokes
 - A user can click a button or link that loads and shows all the saved dad jokes
 - A JSON server to persist the saved dad jokes
 - Styling

@@ -9,6 +9,7 @@ function getDadJoke() {
   })
   .then(res => res.json())
   .then(data => {
+    currentJoke = data
     const joke = data.joke
     jokePTag.innerText = joke
   })
