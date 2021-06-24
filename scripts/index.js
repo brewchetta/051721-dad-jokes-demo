@@ -1,1 +1,1 @@
-console.log('Dad Jokes!')
+console.log('%cWelcome to Dad Jokes!', 'color: orange')
