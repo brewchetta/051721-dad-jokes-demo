@@ -8,6 +8,10 @@ function getDadJoke() {
     }
   })
   .then(res => res.json())
+  .then(data => {
+    const joke = data.joke
+    jokePTag.innerText = joke
+  })
 }
 
 function postDadJoke(body) {
