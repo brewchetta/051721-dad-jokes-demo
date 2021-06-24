@@ -3,7 +3,7 @@
 A dad joke website that allows users to fetch random dad jokes and save their favorites.
 
 ## MVP
-- A user can load the web page and see a dad joke on load
+<!-- - A user can load the web page and see a dad joke on load -->
 - A user can click a button to load a new dad joke
 
 ## Stretch
